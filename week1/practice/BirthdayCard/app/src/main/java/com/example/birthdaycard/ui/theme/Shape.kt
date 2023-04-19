@@ -1,4 +1,4 @@
-package com.example.bithdaycard.ui.theme
+package com.example.birthdaycard.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

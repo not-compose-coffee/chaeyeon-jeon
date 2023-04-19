@@ -1,8 +1,8 @@
-package com.example.bithdaycard
+package com.example.birthdaycard
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import org.junit.Assert.*
+import org.junit.Assert.* // ktlint-disable no-wildcard-imports
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.bithdaycard", appContext.packageName)
+        assertEquals("com.example.birthday", appContext.packageName)
     }
 }

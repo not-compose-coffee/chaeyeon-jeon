@@ -1,4 +1,4 @@
-package com.example.bithdaycard
+package com.example.birthdaycard
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

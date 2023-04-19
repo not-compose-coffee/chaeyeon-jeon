@@ -1,4 +1,4 @@
-package com.example.bithdaycard.ui.theme
+package com.example.birthdaycard.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.example.bithdaycard
+package com.example.birthdaycard
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,7 +16,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
-import com.example.bithdaycard.ui.theme.BithdayCardTheme
+import com.example.birthdaycard.ui.theme.BithdayCardTheme
+import com.example.bithdaycard.R
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
