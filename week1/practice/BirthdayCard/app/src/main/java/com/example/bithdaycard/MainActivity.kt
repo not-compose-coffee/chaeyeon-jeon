@@ -3,6 +3,8 @@ package com.example.bithdaycard
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -23,7 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background,
                 ) {
-                    // TODO: 실제 실행될 코드 추가
+                    BirthdayGreetingWithText(message = "생일 추카해", from = "광렬")
                 }
             }
         }
@@ -32,14 +34,16 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BirthdayGreetingWithText(modifier: Modifier = Modifier, message: String, from: String) {
-    Text(
-        text = message,
-        fontSize = 36.sp,
-    )
-    Text(
-        text = "- from $from -",
-        fontSize = 24.sp,
-    )
+    Column(modifier = modifier) {
+        Text(
+            text = message,
+            fontSize = 36.sp,
+        )
+        Text(
+            text = "- from $from -",
+            fontSize = 24.sp,
+        )
+    }
 }
 
 @Preview(showBackground = true)
