@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Birthday Card</string>
+    <string name="main_greeting_msg">생일 추카해</string>
+    <string name="main_gwangryeol">광렬</string>
+    <string name="main_greeting_from_msg">- from %s -</string>
 </resources>
