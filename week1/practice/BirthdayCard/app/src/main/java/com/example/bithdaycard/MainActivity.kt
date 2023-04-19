@@ -31,14 +31,21 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BirthdayGreetingWithText(modifier: Modifier = Modifier, message: String) {
-    Text(text = message, fontSize = 36.sp)
+fun BirthdayGreetingWithText(modifier: Modifier = Modifier, message: String, from: String) {
+    Text(
+        text = message,
+        fontSize = 36.sp,
+    )
+    Text(
+        text = "- from $from -",
+        fontSize = 24.sp,
+    )
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     BithdayCardTheme {
-        BirthdayGreetingWithText(message = "생신 축하")
+        BirthdayGreetingWithText(message = "생신 축하", from = "광렬")
     }
 }
