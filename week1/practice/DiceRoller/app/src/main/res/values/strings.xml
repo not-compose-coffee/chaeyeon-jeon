@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="main_roll">Roll</string>
+    <string name="main_dice_img_content_description">주사위 %d 이미지</string>
+</resources>
