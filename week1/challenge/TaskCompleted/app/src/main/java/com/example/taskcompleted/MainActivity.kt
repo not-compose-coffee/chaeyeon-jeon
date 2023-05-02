@@ -39,7 +39,7 @@ fun TaskCompletedScreen(modifier: Modifier = Modifier) {
             contentDescription = stringResource(R.string.main_task_completed_icon_content_description),
         )
         Text(
-            text = "All tasks completed",
+            text = stringResource(R.string.main_task_completed_message),
             modifier = Modifier
                 .padding(
                     top = 24.dp,
@@ -48,7 +48,7 @@ fun TaskCompletedScreen(modifier: Modifier = Modifier) {
                 .align(Alignment.CenterHorizontally),
         )
         Text(
-            text = "Nice work!",
+            text = stringResource(R.string.main_nice_work_message),
             fontSize = 16.sp,
             modifier = Modifier
                 .align(Alignment.CenterHorizontally),
