@@ -1,9 +1,23 @@
-## 공부한 내용 정리 링크
-리드미에 올리셔도 무방합니다!
+- #issue
+## *✅ Completed Tasks*
+### Todo1 [🔗]()
+- [ ] todo 1-1
+- [ ] todo 1-2
+### Todo2 [🔗]()
+- [ ] todo 2-1
+- [ ] todo 2-2
+### Todo3 [🔗]()
+- [ ] todo 3-1
+    - [ ] todo 3-1-1
+    - [ ] todo 3-1-2
+<br>
 
-## 완료한 실습 및 과제
-이번 주차 실습과 과제 리스트를 작성하고 제출한 실습과 과제에 체크 해주세요.
+## *📸 Screenshot*
+| task1 | task2 | task3 |
+| :---: | :---: | :---: |
+| <img src="" width="270"> | <img src="" width="270"> | <img src="" width="270"> |
+<br>
 
-ex)
-- [ ] 명함 앱 만들기
-- [X] DICE ROLLER
+```
+To Reviewers
+```
