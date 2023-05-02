@@ -22,18 +22,19 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            TaskCompletedScreen(
-                Modifier
-                    .fillMaxSize()
-                    .wrapContentSize(Alignment.Center),
-            )
+            TaskCompletedScreen()
         }
     }
 }
 
 @Composable
 fun TaskCompletedScreen(modifier: Modifier = Modifier) {
-    Column(modifier = modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .wrapContentSize(Alignment.Center),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
         Image(
             painter = painterResource(id = R.drawable.ic_task_completed),
             contentDescription = stringResource(R.string.main_task_completed_icon_content_description),
@@ -44,14 +45,11 @@ fun TaskCompletedScreen(modifier: Modifier = Modifier) {
                 .padding(
                     top = 24.dp,
                     bottom = 8.dp,
-                )
-                .align(Alignment.CenterHorizontally),
+                ),
         )
         Text(
             text = stringResource(R.string.main_nice_work_message),
             fontSize = 16.sp,
-            modifier = Modifier
-                .align(Alignment.CenterHorizontally),
         )
     }
 }
