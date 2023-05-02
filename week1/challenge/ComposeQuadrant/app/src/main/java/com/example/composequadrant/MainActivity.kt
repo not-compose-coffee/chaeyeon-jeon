@@ -7,7 +7,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.* // ktlint-disable no-wildcard-imports
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment.Companion.CenterHorizontally
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
@@ -75,13 +75,13 @@ private fun ComposableInfoCard(
             .background(backgroundColor)
             .padding(16.dp)
             .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
         Text(
             text = title,
             fontWeight = FontWeight.Bold,
             modifier = Modifier
-                .align(alignment = CenterHorizontally)
                 .padding(bottom = 16.dp),
         )
         Text(
