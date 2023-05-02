@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyCard</string>
+    <string name="main_profile_image_description">명함 프로필 이미지</string>
+    <string name="main_info_item_image_description">%s 아이콘 이미지</string>
+    <string name="main_dummy_occupation">GO SOPT Android Developer</string>
+    <string name="main_dummy_name">Chaeyeon Jeon</string>
+    <string name="main_dummy_email">b1urrr@naver.com</string>
+    <string name="main_dummy_github_id">\@b1urrrr</string>
+    <string name="main_dummy_phone_number">+82 111-2222-3333</string>
+</resources>
