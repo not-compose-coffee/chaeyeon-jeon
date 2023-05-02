@@ -1,15 +1,10 @@
 - #issue
 ## *✅ Completed Tasks*
-### Todo1 [🔗]()
-- [ ] todo 1-1
-- [ ] todo 1-2
-### Todo2 [🔗]()
-- [ ] todo 2-1
-- [ ] todo 2-2
-### Todo3 [🔗]()
-- [ ] todo 3-1
-    - [ ] todo 3-1-1
-    - [ ] todo 3-1-2
+- [ ] todo 1
+    - [ ] todo 1-1 [🔗]()
+    - [ ] todo 1-2 [🔗]()
+- [ ] todo 2 [🔗]()
+- [ ] todo 3 [🔗]()
 <br>
 
 ## *📸 Screenshot*
@@ -18,6 +13,7 @@
 | <img src="" width="270"> | <img src="" width="270"> | <img src="" width="270"> |
 <br>
 
-```
-To Reviewers
-```
+## *📢 To Reviewers*
+- pr point1
+- pr point2
+- pr point3
